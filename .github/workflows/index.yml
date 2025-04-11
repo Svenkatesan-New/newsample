@@ -3,7 +3,7 @@ on: push
 
 jobs:
   newjob:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: display
       run:"echo hello world"
