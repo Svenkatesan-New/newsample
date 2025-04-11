@@ -1,9 +1,9 @@
-name: "newworkflow"
+name: newworkflow
 on: push
 
 jobs:
   newjob:
   runs-on: ubuntu-latest
     steps:
-      -name: "display"
-       run:"echo hello world"
+    - name: display
+      run:"echo hello world"
